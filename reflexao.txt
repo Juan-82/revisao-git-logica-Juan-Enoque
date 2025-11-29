@@ -1,0 +1,44 @@
+1. Git e rastreabilidade
+A rastreabilidade é um dos pilares mais importantes ao trabalhar com um sistema de versionamento como o Git porque ela permite acompanhar tudo o que aconteceu no projeto desde o começo: 
+quem fez cada mudança, quando fez e por quê. Em projetos colaborativos isso é essencial, pois o código não é alterado por uma única pessoa. 
+Ter um histórico organizado ajuda a entender a evolução do sistema, facilita identificar erros introduzidos em commits específicos e permite voltar a versões anteriores caso algo dê errado. 
+Sem rastreabilidade, seria praticamente impossível coordenar o trabalho em equipe de forma eficiente.
+
+2. Branches e decomposição
+Criar branches no Git tem tudo a ver com o conceito de decomposição no pensamento computacional. 
+Assim como a decomposição divide um problema grande em partes menores e mais simples, os branches permitem dividir o desenvolvimento em trilhas independentes. 
+Cada branch pode ser usada para uma funcionalidade específica, uma correção ou um experimento, sem interferir no restante do projeto. 
+Isso deixa o desenvolvimento mais organizado, reduz conflitos e possibilita que várias pessoas trabalhem ao mesmo tempo sem atrapalhar o fluxo umas das outras.
+
+3. Registro de mudanças e sistematização lógica (git commit)
+O comando git commit é a peça central para manter um registro sistemático das alterações. 
+Cada commit funciona como um ponto marcado na linha do tempo do projeto. 
+Registrar mudanças de forma contínua cria um histórico estruturado, que ajuda a controlar a evolução do software e entender o motivo de cada modificação. 
+Isso conversa diretamente com o pensamento computacional, pois envolve acompanhar o estado do sistema passo a passo, de forma lógica e organizada. 
+Com commits bem feitos, torna-se muito mais fácil identificar onde problemas surgiram, testar hipóteses e manter a consistência do projeto.
+
+4. Dedução, indução e fundamentos lógicos
+O raciocínio indutivo começa observando casos particulares e, a partir deles, constrói uma conclusão geral. 
+O ponto é que essa conclusão nunca é 100% garantida — ela é provável. Por exemplo, observar muitos pássaros que voam e concluir que “todos os pássaros voam” é uma generalização indutiva, 
+mas não absoluta, já que existem exceções como pinguins e avestruzes.
+Já o raciocínio dedutivo funciona ao contrário: parte de premissas aceitas como verdadeiras e chega a uma conclusão que necessariamente também é verdadeira, desde que as premissas estejam corretas. 
+Por exemplo: “Todo mamífero respira ar. Baleias são mamíferos. Logo, baleias respiram ar.” A conclusão aqui é garantida.
+A lógica é fundamental em áreas como matemática, ciência e computação justamente porque ela organiza a forma como construímos hipóteses, 
+explicamos fenômenos e criamos modelos teóricos. Sem lógica, seria impossível garantir consistência ou prever resultados.
+Confundir dedução com “tirar conclusão baseada em exemplos” é um erro conceitual, porque esse processo é indutivo, não dedutivo. A dedução não depende de exemplos, mas sim de premissas já estabelecidas.
+
+5. Lógica computacional e funcionamento do Git
+A lógica aparece o tempo todo no uso do Git.
+O git status, por exemplo, faz quase uma inspeção lógica do repositório: ele compara o estado atual dos arquivos com o último commit e mostra exatamente o que mudou. 
+Ele não tenta adivinhar nada; só relata o que é verdadeiro no momento.
+O git diff segue essa mesma linha. Ele faz comparações diretas entre versões e mostra diferenças reais entre arquivos. Não há interpretação subjetiva, 
+previsão ou generalização — é apenas uma análise precisa do que mudou.
+O git log organiza os commits em sequência e, olhando esses registros, conseguimos deduzir como o projeto evoluiu ao longo do tempo. 
+Cada registro conta uma parte da história, permitindo acompanhar decisões, correções e avanços no código.
+Assim, o Git funciona baseado em uma lógica dedutiva: seus comandos partem de premissas claras sobre o estado do repositório 
+(como último commit, alterações pendentes, histórico disponível) e produzem resultados previsíveis e consistentes. Cada comando segue regras definidas, 
+e o usuário consegue entender exatamente o que vai acontecer.
+
+----------
+A lógica dedutiva aparece no uso do Git porque cada comando depende de premissas claras sobre o estado do repositório — como o último commit ou arquivos modificados — e produz resultados previsíveis. 
+Assim, ao analisar o histórico ou comparar versões, seguimos uma linha lógica que parte de informações certas para conclusões garantidas, o que torna o Git uma ferramenta confiável no controle de versão.
