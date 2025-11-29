@@ -45,4 +45,10 @@ Assim, ao analisar o histórico ou comparar versões, seguimos uma linha lógica
 
 -------
 Reflexão 2:
-A decomposição aparece na criação de branches porque cada branch representa uma parte isolada do desenvolvimento. Isso permite dividir o projeto em partes menores, organizadas e independentes, facilitando o trabalho e reduzindo conflitos.
+A decomposição aparece na criação de branches porque cada branch representa uma parte isolada do desenvolvimento. Isso permite dividir o projeto em partes menores, organizadas e independentes, 
+facilitando o trabalho e reduzindo conflitos.
+
+-------
+Análise do git diff entre main e desenvolvimento:
+Resumo do diff salvo em diff_main_desenv.patch. As diferenças principais mostram que foi acrescentado um novo parágrafo no final do arquivo reflexao.txt, ou seja, 
+mudanças lineares e explicativas sem remoções de conteúdo anterior. O diff confirma que a modificação é aditiva e que o histórico do branch contém a nova reflexão.

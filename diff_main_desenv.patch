@@ -1,0 +1,16 @@
+diff --git a/reflexao.txt b/reflexao.txt
+index 6d9dea7..5c0c3e8 100644
+--- a/reflexao.txt
++++ b/reflexao.txt
+@@ -41,4 +41,8 @@ e o usuário consegue entender exatamente o que vai acontecer.
+ 
+ ----------
+ A lógica dedutiva aparece no uso do Git porque cada comando depende de premissas claras sobre o estado do repositório — como o último commit ou arquivos modificados — e produz resultados previsíveis. 
+-Assim, ao analisar o histórico ou comparar versões, seguimos uma linha lógica que parte de informações certas para conclusões garantidas, o que torna o Git uma ferramenta confiável no controle de versão.
+\ No newline at end of file
++Assim, ao analisar o histórico ou comparar versões, seguimos uma linha lógica que parte de informações certas para conclusões garantidas, o que torna o Git uma ferramenta confiável no controle de versão.
++
++-------
++Reflexão 2:
++A decomposição aparece na criação de branches porque cada branch representa uma parte isolada do desenvolvimento. Isso permite dividir o projeto em partes menores, organizadas e independentes, facilitando o trabalho e reduzindo conflitos.
+\ No newline at end of file
