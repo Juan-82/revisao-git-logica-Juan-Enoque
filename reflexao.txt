@@ -52,3 +52,10 @@ facilitando o trabalho e reduzindo conflitos.
 Análise do git diff entre main e desenvolvimento:
 Resumo do diff salvo em diff_main_desenv.patch. As diferenças principais mostram que foi acrescentado um novo parágrafo no final do arquivo reflexao.txt, ou seja, 
 mudanças lineares e explicativas sem remoções de conteúdo anterior. O diff confirma que a modificação é aditiva e que o histórico do branch contém a nova reflexão.
+
+-------
+Resumo do histórico:
+O histórico registra primeiro o commit inicial que adicionou a reflexão sobre lógica dedutiva, depois o commit no branch 
+desenvolvimento que acrescentou a reflexão sobre decomposição, seguido do commit que registra a análise do diff. Por fim, o merge introduz os 
+commits do branch desenvolvimento na main. A ordem é linear quando observamos a main após o merge: primeiro entradas anteriores (se houver), 
+depois a integração dos commits do desenvolvimento; essa sequência torna explícita a evolução incremental e a lógica dedutiva dos passos executados.

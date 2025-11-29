@@ -1,0 +1,6 @@
+* 75aa5b0 (HEAD -> main, origin/main, origin/desenvolvimento, desenvolvimento) Etapa C concluida
+* 9c8979f Etapa B concluida
+*   07a6c76 Merge branch 'main' of https://github.com/Juan-82/revisao-git-logica-Juan-Enoque
+|\  
+| * 9dd290b Initial commit
+* 50b16fe Etapa A concluida
